@@ -31,8 +31,8 @@
 &kp CAPSLOCK  &kp A     &kp S    &kp D     &kp F     &kp G                          &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp SQT
 &kp LCTRL  &kp Z     &kp X    &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RETURN
                             &bt BT_PRV    &bt BT_NXT                                                      &kp X    &kp Y
-                            &bt BT_CLR    &kp BACKSPACE  &kp K                                           &kp R   &kp BACKSPACE  &kp T
-                                &SPACE &LSHFT                                                   &LSHFT  &SPACE
+                            &bt BT_CLR    &kp BACKSPACE  &bootloader                  &bootloader   &kp BACKSPACE  &kp T
+                                &SPACE &LSHFT                                               &LSHFT  &SPACE
             >;
         };
     };
