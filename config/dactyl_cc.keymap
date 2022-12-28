@@ -53,7 +53,7 @@
         arrow_layer {
             bindings = <
 &bootloader  &none   &none   &none   &none   &none                   &none      &none      &kp UP     &none    &none     &none
-&none        &none   &none   &none   &none   &none                   &kp HOME   &kp LEFT   &kp DOWN   &RIGHT   &kp END   &none
+&none        &none   &none   &none   &none   &none                   &kp HOME   &kp LEFT   &kp DOWN   &kp RIGHT   &kp END   &none
 &none        &none   &none   &none   &none   &none                   &none      &none      &kp UP     &none    &none     &none
                      &none   &none                                                         &none      &none
 
