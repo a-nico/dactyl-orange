@@ -5,9 +5,9 @@
 
 // LAYERS
 #define DEFAULT 0
-#define CHAR_LAYER   1
-#define NUM_LAYER   2
-#define ARROW_LAYER  3
+#define CHAR_LAYER 1
+#define NUM_LAYER 2
+#define ARROW_LAYER 3
 
 
 / {
