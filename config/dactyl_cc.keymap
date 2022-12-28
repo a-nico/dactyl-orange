@@ -30,7 +30,7 @@
             bindings = <
 &kp TILDE  &none      &none     &none      &none     &kp CARET                     &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PLUS   &kp MINUS
 &none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp EQUAL  &kp TILDE
-&none      &none      &none     &none      &none     &none                         &none     $kp UNDER  &kp LBKT        &kp RBKT         &none      &none
+&none      &none      &none     &none      &none     &none                         &none     &kp UNDER  &kp LBKT        &kp RBKT         &none      &none
                       &none     &none                                                                   &none           &none
 
                             &kp LCTRL   &mo CHAR_LAYER  &none                    &mo ARROW_LAYER   &kp BACKSPACE  &kp DEL
