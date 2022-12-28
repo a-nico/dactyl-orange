@@ -59,6 +59,7 @@
 
                             &kp LCTRL   &mo CHAR_LAYER  &none                    &mo ARROW_LAYER   &kp BACKSPACE  &kp DEL
                                  &kp LSHIFT   &kp LALT                                      &mo NUM_LAYER   &kp SPACE
+            >;
         };
     };
 };
