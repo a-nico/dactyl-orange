@@ -16,37 +16,37 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp Q     &kp W     &kp E     &kp R     &kp T                              &kp Y     &kp U     &kp I       &kp O     &kp P      &kp BACKSPACE
-&kp TAB    &kp A     &kp S     &kp D     &kp F     &kp G                              &kp H     &kp J     &kp K       &kp L     &kp SEMI   &kp SQT
-&kp LCTRL  &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH   &kp ENTER
-                     &kp C_PP  &kp LWIN                                                                   &kp C_VOL_DN  &kp C_VOL_UP
+&kp ESC        &kp Q     &kp W     &kp E     &kp R     &kp T                              &kp Y     &kp U     &kp I       &kp O     &kp P      &kp BACKSPACE
+&kp TAB        &kp A     &kp S     &kp D     &kp F     &kp G                              &kp H     &kp J     &kp K       &kp L     &kp SEMI   &kp SQT
+&mo NUM_LAYER  &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH   &kp EQUAL
+                     &kp C_PP  &kp LWIN                                                                       &kp MINUS   &kp PLUS
 
-                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo NUM_LAYER   &mo ARROW_LAYER   &kp ENTER
-                                 &kp LSHIFT    &kp DEL                                      &kp BACKSPACE    &kp SPACE
+                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo CHAR_LAYER   &mo ARROW_LAYER   &kp ENTER
+                                 &kp DEL      &kp LSHIFT                                    &kp BACKSPACE    &kp SPACE
             >;
         };
 
         char_layer {
             bindings = <
-&kp GRAVE  &none      &none     &none      &none     &kp CARET                     &none     &none      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp PLUS
-&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp AMPS  &kp ASTRK  &kp LPAR        &kp RPAR         &kp EQUAL  &kp TILDE
-&none      &none      &none     &none      &none     &none                         &none     &kp UNDER  &kp LBKT        &kp RBKT         &none      &none
-                      &none     &none                                                                   &none           &none
+&kp GRAVE  &none      &none     &none      &none     &kp CARET                     &kp AMPS     &kp LEFT_BRACE   &kp RIGHT_BRACE  &none   &none   &none
+&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp ASTRK    &kp LPAR         &kp RPAR         &none   &none   &none
+&none      &none      &none     &none      &none     &none                         &kp UNDER    &kp LBKT         &kp RBKT         &none   &none   &kp TILDE
+                      &none     &none                                                                            &kp C_VOL_DN     &kp C_VOL_UP
 
-                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo NUM_LAYER   &mo ARROW_LAYER   &kp ENTER
-                                 &kp LSHIFT    &kp DEL                                      &kp BACKSPACE    &kp SPACE
+                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo CHAR_LAYER   &mo ARROW_LAYER   &kp ENTER
+                                 &kp DEL      &kp LSHIFT                                    &kp BACKSPACE    &kp SPACE
             >;
         };
 
         num_layer {
             bindings = <
-&bt BT_SEL 0  &kp F9   &kp F10     &kp F11    &kp F12   &none                     &none    &kp N7    &kp N8    &kp N9    &none    &none
-&bt BT_SEL 1  &kp F5   &kp F6      &kp F7     &kp F8    &none                     &none    &kp N4    &kp N5    &kp N6    &none    &none
-&bt BT_SEL 2  &kp F1   &kp F2      &kp F3     &kp F4    &none                     &kp N0   &kp N1    &kp N2    &kp N3    &none    &none
-                       &bt BT_CLR  &none                                                   &kp N0    &none
+&bt BT_CLR     &kp F9   &kp F10   &kp F11   &kp F12   &bt BT_SEL 0                     &none    &kp N7   &kp N8   &kp N9   &none   &none
+&none          &kp F5   &kp F6    &kp F7    &kp F8    &bt BT_SEL 1                     &none    &kp N4   &kp N5   &kp N6   &none   &none
+&mo NUM_LAYER  &kp F1   &kp F2    &kp F3    &kp F4    &bt BT_SEL 2                     &kp N0   &kp N1   &kp N2   &kp N3   &none   &none
+                        &none     &none                                                                  &kp N0   &kp DOT
 
-                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo NUM_LAYER   &mo ARROW_LAYER   &kp ENTER
-                                 &kp LSHIFT    &kp DEL                                      &kp BACKSPACE    &kp SPACE
+                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo CHAR_LAYER   &mo ARROW_LAYER   &kp ENTER
+                                 &kp DEL      &kp LSHIFT                                    &kp BACKSPACE    &kp SPACE
             >;
         };
 
@@ -57,8 +57,8 @@
 &none        &none   &none   &none   &none   &none                   &none      &none      &kp UP     &none    &none     &none
                      &none   &none                                                         &none      &none
 
-                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo NUM_LAYER   &mo ARROW_LAYER   &kp ENTER
-                                 &kp LSHIFT    &kp DEL                                      &kp BACKSPACE    &kp SPACE
+                            &kp LCTRL   &kp LALT   &mo CHAR_LAYER                    &mo CHAR_LAYER   &mo ARROW_LAYER   &kp ENTER
+                                 &kp DEL      &kp LSHIFT                                    &kp BACKSPACE    &kp SPACE
             >;
         };
     };
