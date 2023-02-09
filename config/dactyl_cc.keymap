@@ -28,9 +28,9 @@
 
         char_layer {
             bindings = <
-&kp GRAVE  &none      &none     &none      &none     &kp CARET                     &kp PIPE     &kp BACKSLASH    &kp LEFT_BRACE   &kp RIGHT_BRACE    &none
-&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp AMPS     &kp ASTRK        &kp LPAR         &kp RPAR           &none
-&kp LCTRL  &none      &none     &none      &none     &none                         &none        &kp UNDER        &kp LBKT         &kp RBKT           &kp ENTER
+&kp GRAVE  &none      &none     &none      &none     &kp CARET                     &kp PIPE     &kp BACKSLASH    &kp LEFT_BRACE   &kp RIGHT_BRACE   &none   &none
+&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp AMPS     &kp ASTRK        &kp LPAR         &kp RPAR          &none   &none
+&kp LCTRL  &none      &none     &none      &none     &none                         &none        &kp UNDER        &kp LBKT         &kp RBKT          &none   &kp ENTER
                       &none     &none                                                                            &kp C_VOL_DN     &kp C_VOL_UP
 
                            &mo NUM_LAYER    &kp LALT     &kp LSHIFT                          &kp C_PP    &kp TILDE   &mo ARROW_LAYER
