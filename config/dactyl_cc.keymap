@@ -21,19 +21,19 @@
 &kp LCTRL      &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH   &kp ENTER
                          &kp DEL  &kp LWIN                                                                    &kp MINUS   &kp PLUS
 
-                           &mo NUM_LAYER    &kp LALT     &kp LSHIFT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
 
         char_layer {
             bindings = <
-&kp GRAVE  &none      &none     &none      &none     &kp CARET                     &kp PIPE     &kp BACKSLASH    &kp LEFT_BRACE   &kp RIGHT_BRACE   &none   &none
-&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp AMPS     &kp ASTRK        &kp LPAR         &kp RPAR          &none   &none
-&kp LCTRL  &none      &none     &none      &none     &none                         &none        &kp UNDER        &kp LBKT         &kp RBKT          &none   &kp ENTER
+&kp GRAVE  &none      &none     &none      &none     &kp CARET                     &none        &kp PIPE         &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp BACKSLASH   &none
+&none      &kp EXCL   &kp AT    &kp HASH   &kp DLLR  &kp PERCENT                   &kp AMPS     &kp ASTRK        &kp LPAR         &kp RPAR          &none           &none
+&kp LCTRL  &none      &none     &none      &none     &none                         &none        &kp UNDER        &kp LBKT         &kp RBKT          &none           &kp ENTER
                       &none     &none                                                                            &kp C_VOL_DN     &kp C_VOL_UP
 
-                           &mo NUM_LAYER    &kp LALT     &kp LSHIFT                          &kp C_PP    &kp TILDE   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
@@ -45,8 +45,8 @@
 &kp LCTRL      &kp F1   &kp F2         &kp F3        &kp F4    &bt BT_SEL 2                     &kp N0   &kp N1   &kp N2   &kp N3   &none   &kp ENTER
                         &bt BT_SEL 3   &bt BT_SEL 4                                                               &kp N0   &kp DOT
 
-                           &mo NUM_LAYER    &kp LALT     &kp LSHIFT                          &kp EQUAL    &kp SPACE   &mo ARROW_LAYER
-                                     &kp DEL    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                                     &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
 
@@ -57,7 +57,7 @@
 &kp LCTRL  &none   &none   &none   &none   &none                   &none      &kp PG_DN   &kp UP     &none       &none     &kp ENTER
                    &none   &none                                                          &none      &none
 
-                           &mo NUM_LAYER    &kp LALT     &kp LSHIFT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
