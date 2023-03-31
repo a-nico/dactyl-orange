@@ -21,7 +21,7 @@
 &kp LCTRL      &kp Z     &kp X     &kp C     &kp V     &kp B                              &kp N     &kp M     &kp COMMA   &kp DOT   &kp FSLH   &kp ENTER
                          &kp DEL  &kp LWIN                                                                    &kp MINUS   &kp PLUS
 
-                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &mo ARROW_LAYER   &kp EQUAL
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
@@ -33,7 +33,7 @@
 &kp LCTRL  &none      &none     &none      &none     &none                         &none        &kp UNDER        &kp LBKT         &kp RBKT          &none           &kp ENTER
                       &none     &none                                                                            &kp C_VOL_DN     &kp C_VOL_UP
 
-                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &mo ARROW_LAYER   &kp TILDE
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
@@ -45,7 +45,7 @@
 &kp LCTRL      &kp F1   &kp F2         &kp F3        &kp F4    &bt BT_SEL 2                     &kp N0   &kp N1   &kp N2   &kp N3   &none   &kp ENTER
                         &bt BT_SEL 3   &bt BT_SEL 4                                                               &kp N0   &kp DOT
 
-                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &mo ARROW_LAYER   &kp EQUAL
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
@@ -57,7 +57,7 @@
 &kp LCTRL  &none   &none   &none   &none   &none                   &none      &kp PG_DN   &kp UP     &none       &none     &kp ENTER
                    &none   &none                                                          &none      &none
 
-                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &kp EQUAL   &mo ARROW_LAYER
+                           &mo NUM_LAYER    &kp LSHIFT     &kp LALT                          &kp C_PP    &mo ARROW_LAYER   &kp EQUAL
                                      &kp SPACE    &mo CHAR_LAYER                                   &kp BACKSPACE    &kp SPACE
             >;
         };
